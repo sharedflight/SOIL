@@ -17,6 +17,7 @@
 
 #ifdef WIN32
 	#define WIN32_LEAN_AND_MEAN
+	#define GL_CLAMP_TO_EDGE 0x812F 
 	#include <windows.h>
 	#include <wingdi.h>
 	#include <GL/gl.h>
